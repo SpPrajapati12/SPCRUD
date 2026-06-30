@@ -19,7 +19,6 @@ function App() {
       username: 'berend123'
     }
   ]
-  const initialState = { id: "", name: "", username: "" }
 
   const [users, setUsers] = useState(data);
   const [editing, setEditing] = useState(false);
